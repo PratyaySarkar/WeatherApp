@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        div {
+            background-color: rgba(255, 255, 255, 0.5);
+            height: 48vh;
+            width: 27vw;
+            text-align: center;
+            padding: 30px;
+            margin: auto;
+        }
+    </style>
+    <title>knoWeather</title>
+</head>
+
+<body>
+    <div>
+        <h1>
+            <%= temperature %>
+                <%= wUnit %>
+        </h1>
+        <br>
+        <h3>
+            <%= description %>
+        </h3>
+        <img src=<%=imgsrc %> />
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>knoWeather</title>
+</head>
+
+<body>
+  <div class="st-1">
+    <form action="/" method="post">
+      <div class="">
+        <label for="city" class="box-1">Enter the City Name:</label>
+        <input id="city" class="box-1 textbox" type="text" name="cityName">
+      </div>
+      <br>
+
+      <div class="">
+        <label class="box-2">Unit:</label>
+        <div class="box-2">
+          <div class="">
+            <input class="" type="radio" name="units" id="metric" value="metric" checked>
+            <label class="" for="metric">
+              °C
+            </label>
+          </div>
+          <div class="">
+            <input class="" type="radio" name="units" id="imperial" value="imperial">
+            <label class="" for="imperial">
+              °F
+            </label>
+          </div>
+        </div>
+      </div>
+      <br>
+          <button type="submit" class="btn">Check Weather</button>
+    </form>
+  </div>
+</body>
+
+</html>
