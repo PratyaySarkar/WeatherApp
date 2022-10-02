@@ -10,7 +10,7 @@ app
     extended: true
   }))
   .use(express.static("public"))
-  .listen(process.env.PORT || PORT, () => {
+  .listen(process.env.PORT || PORT 5000, () => {
     console.log(`Connected to the Server on ${PORT}!`);
   })
 
