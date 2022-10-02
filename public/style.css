@@ -52,6 +52,6 @@ body {
 }
 
 .btn:active {
-  box-shadow: 0 2px #666;
+  box-shadow: 0 4px #666;
   transform: translateY(4px);
 }
