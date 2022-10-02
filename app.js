@@ -11,7 +11,7 @@ app
   }))
   .use(express.static("public"))
   .listen(process.env.PORT || PORT, () => {
-    console.log(`Connected to Server on ${PORT}!`);
+    console.log(`Connected to the Server on ${PORT}!`);
   })
 
 app.post("/", (req, res) => {
