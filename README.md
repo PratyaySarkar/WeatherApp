@@ -1,1 +1,1 @@
-# This is an Ordinary Weather App
+# This is a Weather App
